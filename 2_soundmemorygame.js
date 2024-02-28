@@ -64,7 +64,7 @@ function disableCards() {
             if (animalList.length === 24) {
                 window.location.href = "./3_end.html";
             }
-        }, 4000);
+        }, 5000);
     }
     
     //クリックイベントを無くす
