@@ -16,6 +16,9 @@ let lockBoard = false; //動かなくする
 
 //反転させる関数
 function flipCard() {
+    const flipAudio = new Audio('./elsesound/flip.mp3');
+    flipAudio.currentTime = 0;
+    flipAudio.play();
     
     if (lockBoard) return; //動かない状態のときはそのままreturn
     if (this === first) return; 
@@ -41,10 +44,10 @@ let animalList = [];
 //同じカードだったら
 function disableCards() {
     //正解の音
-    const correct = new Audio('./elsesound/correct.mp3');
+    const correctAudip = new Audio('./elsesound/correct.mp3');
     setTimeout(() => {
-        correct.currentTime = 0;
-        correct.play();
+        correctAudio.currentTime = 0;
+        correctAudio.play();
     }, 1500);
     //動物の正体
     const backShadow = document.getElementsByClassName("backShadow");
