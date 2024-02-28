@@ -61,7 +61,7 @@ function disableCards() {
             animalList.push(i);
         }
         setTimeout(() => {
-            if (animalList.length === 4) {
+            if (animalList.length === 24) {
                 window.location.href = "./3_end.html";
             }
         }, 4000);
