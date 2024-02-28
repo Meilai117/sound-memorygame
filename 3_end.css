@@ -6,7 +6,6 @@ body {
     justify-content: center;
     min-height: 100vh;
     background: #63b1c7;
-    font-family: "Darumadrop One";
     overflow: hidden;
 }
 
@@ -15,17 +14,20 @@ h3 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-family: "Darumadrop One";
 }
 
 #restart, #finish {
     border: 2px solid #70b5b4;
     border-radius: 20px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 1.4rem;
+    padding: 8px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 2rem;
     margin: 20px;
-    margin-right: 60px;
+    margin-right: 40px;
     margin-left: 10px;
     background: #b0d5d4;
+    font-family: "Darumadrop One";
 }
