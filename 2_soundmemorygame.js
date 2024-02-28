@@ -44,7 +44,7 @@ let animalList = [];
 //同じカードだったら
 function disableCards() {
     //正解の音
-    const correctAudip = new Audio('./elsesound/correct.mp3');
+    const correctAudio = new Audio('./elsesound/correct.mp3');
     setTimeout(() => {
         correctAudio.currentTime = 0;
         correctAudio.play();
