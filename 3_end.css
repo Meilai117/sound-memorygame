@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #63b1c7;
+    font-family: "Darumadrop One";
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#restart, #finish {
+    border: 2px solid #70b5b4;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.4rem;
+    margin: 20px;
+    margin-right: 60px;
+    margin-left: 10px;
+    background: #b0d5d4;
+}
