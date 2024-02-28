@@ -6,5 +6,5 @@ restartButton.addEventListener("click", () => {
 })
 
 finishButton.addEventListener("click", () => {
-    window.location.href = "./1_title.html";
+    window.location.href = "./index.html";
 })
