@@ -26,8 +26,8 @@ h3 {
     width: auto;
     height: 100%;
     border-radius: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     animation: anime1 0.5s ;
     animation: anime1 0.5s ease 0s infinite alternate;
     transform-origin:center;
