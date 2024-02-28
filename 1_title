@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音の神経衰弱</title>
+    <link rel="stylesheet" href="./1_title.css">
+</head>
+<body id="start">
+
+    <div class="front">
+        <img id="cat" src="./animalimage/cat.png">
+        <img src="./animalimage/chick.png">
+        <img src="./animalimage/cow.png">
+        <img src="./animalimage/dog.png">
+        <img src="./animalimage/elephant.png">
+        <img src="./animalimage/frog.png">
+    </div>
+
+    <div align="center">
+        <h1>おと の しんけいすいじゃく</h1>
+        <h3>クリックしてゲームスタート！</h3>
+    </div>
+
+    <div class="front">
+        <img src="./animalimage/horse.png">
+        <img src="./animalimage/lion.png">
+        <img src="./animalimage/mouse.png">
+        <img src="./animalimage/owl.png">
+        <img src="./animalimage/pig.png">
+        <img src="./animalimage/sheep.png">
+    </div>
+
+    <script src="./1_title.js"></script>
+    
+</body>
+</html>
