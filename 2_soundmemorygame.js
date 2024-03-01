@@ -48,7 +48,7 @@ function disableCards() {
     setTimeout(() => {
         correctAudio.currentTime = 0;
         correctAudio.play();
-    }, 1500);
+    }, 500);
     //動物の正体
     const backShadow = document.getElementsByClassName("backShadow");
     const back = document.getElementsByClassName("back");
