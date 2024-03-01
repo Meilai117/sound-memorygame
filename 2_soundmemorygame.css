@@ -13,16 +13,17 @@ body {
 
 .memoryGame {
     width: 810px;
-    height: 550px;
+    height: 540px;
     margin: auto;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     perspective: 1000px;
 }
 
 .card {
-    width: calc(16.666% - 10px);
-    height: calc(25% - 10px);
+    width: 130px;
+    height: 130px;
     margin: 2px;
     position: relative;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
